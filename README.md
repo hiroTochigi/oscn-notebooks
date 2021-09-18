@@ -1,6 +1,13 @@
 # oscn-noteboks
 A collection of notebooks for researching oscn.net
 
+## SetUp by Docker container
+
+1 `git clone https://github.com/codefortulsa/oscn-notebooks`
+
+1 `cd oscn-notebooks`
+
+1 `docker run --name oscn -p 8888:8888 -it -v `pwd`:/home/oscn_notebook/work hirotochigi/oscn_notebook`
 
 ## Setup
 
