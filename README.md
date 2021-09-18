@@ -7,7 +7,7 @@ A collection of notebooks for researching oscn.net
 
 1 `cd oscn-notebooks`
 
-1 `docker run --name oscn -p 8888:8888 -it -v `pwd`:/home/oscn_notebook/work hirotochigi/oscn_notebook`
+1 `docker run --name oscn -p 8888:8888 -it -v \`pwd\`:/home/oscn_notebook/work hirotochigi/oscn_notebook`
 
 ## Setup
 
